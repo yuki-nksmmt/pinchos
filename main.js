@@ -141,8 +141,4 @@ function draw() {
     drawPick();
     fill(0);
 
-    text("x="+mouseX, mouseX+20, mouseY);
-    text("y="+mouseY, mouseX+20, mouseY+20);
-    text("mouse="+mouse, mouseX+20, mouseY+40);
-    text("push="+push, mouseX+20, mouseY+60);
 }
