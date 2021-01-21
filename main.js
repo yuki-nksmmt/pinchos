@@ -1,6 +1,5 @@
 //-----------------sound_def----------------------------//
-let title, select, cancel;
-let sound_play = 0;
+let title;
 
 //-----------------map_image_def------------------------//
 
@@ -22,7 +21,7 @@ let tomato, olive, saba, soap, koroke, hashi;
 ////item
 let pin, pin2, pick;
 ////mark
-let turn, batsu, restart;
+let turn, restart;
 let yasai;
 //-------------------------------------------------------//
 
@@ -57,9 +56,6 @@ function preload(){
     //-----------------------------------------------------//
     //---------------load_sounds---------------------------//
     title = loadSound("./data/title.mp3");
-    select = loadSound("./data/select.mp3");
-    cancel = loadSound("./data/cancel.mp3")
-
 
     //---------------load_images---------------------------//
     ////scene_image
@@ -105,7 +101,6 @@ function preload(){
     
     ///mark_image
     turn = loadImage("./data/turn.png");
-    batsu = loadImage("./data/batsu.png");
     restart = loadImage("./data/restart.png");
     //-----------------------------------------------------//
 }
